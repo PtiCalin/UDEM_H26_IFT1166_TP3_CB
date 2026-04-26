@@ -1,61 +1,33 @@
-# Resources List
+# TP3 Resource Register
 
-| ID | Resource Title | Category | Authors/Organization | Year | Link/DOI | Access Date | License/Terms | Quality Level | Used In |
-|----|----------------|----------|----------------------|------|----------|-------------|---------------|---------------|---------|
-| R-001 | | | | | | | | | |
+Track only resources that directly help complete or validate this assignment.
 
+## Core Resource Table
 
----
+| ID | Resource | Category | Maintainer | Link/Path | Access Date | Why It Matters |
+|----|----------|----------|------------|-----------|-------------|----------------|
+| R-001 | TP3 assignment PDF | Assignment spec | Course staff | files/instructions/IFT1166H26TP3.pdf | [YYYY-MM-DD] | Ground truth requirements |
+| R-002 | C# Array docs | Technical docs | Microsoft | [Add URL] | [YYYY-MM-DD] | Required APIs for Num1 |
+| R-003 | C# List<T> docs | Technical docs | Microsoft | [Add URL] | [YYYY-MM-DD] | Required APIs for Num2 |
+| R-004 | StreamReader/Writer docs | Technical docs | Microsoft | [Add URL] | [YYYY-MM-DD] | File parsing and exports |
 
-## Usage Guidelines
+## Recommended Additions
 
-Use this document to track all resources used in the project.
+1. Professor clarifications (if posted on LMS).
+2. Lecture notes for arrays, classes, sorting, searching.
+3. Any grading rubric fragments shared in class.
 
-## Resource Categories
+## Validation Use Map
 
-1. Academic Literature
-- Journal articles
-- Conference papers
-- Books and book chapters
+| TP3 Area | Primary Resource IDs |
+|----------|----------------------|
+| Num1 parsing and array operations | R-001, R-002, R-004 |
+| Num2 list operations and sorting | R-001, R-003 |
+| Output format verification | R-001 |
 
-2. Technical Documentation
-- Official framework/library docs
-- API references
-- Standards and best-practice guides
+## Quality Rules for This File
 
-3. Datasets and Data Sources
-- Public datasets
-- Institutional data sources
-- Generated datasets (with method noted)
-
-4. Tools and Platforms
-- Software used for implementation
-- Analysis and visualization tools
-- Collaboration tools
-
-5. Media and Supporting Materials
-- Images, diagrams, and templates
-- Lecture notes and course materials
-
-## Master Resource Register
-
-| ID | Resource Title | Category | Authors/Organization | Year | Link/DOI | Access Date | License/Terms | Quality Level | Used In |
-|----|----------------|----------|----------------------|------|----------|-------------|---------------|---------------|---------|
-| R-001 | | Academic Literature | | | | | | High/Medium/Low | |
-| R-002 | | Technical Documentation | | | | | | High/Medium/Low | |
-| R-003 | | Dataset | | | | | | High/Medium/Low | |
-| R-004 | | Tool/Platform | | | | | | High/Medium/Low | |
-
-## Recommended Quality Criteria
-
-- Relevance to project objectives
-- Credibility of source
-- Recency and version validity
-- Reproducibility value
-- License and usage compliance
-
-## Notes
-
-- Keep IDs stable once assigned.
-- Prefer DOI when available for academic references.
-- Mirror final references in `ATTRIBUTIONS.md` and the report bibliography.
+1. Every resource must have a concrete usage note.
+2. No generic references without direct assignment relevance.
+3. Keep links and dates current.
+4. Mirror external references in `ATTRIBUTIONS.md`.

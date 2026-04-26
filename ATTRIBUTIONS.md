@@ -1,84 +1,45 @@
-# Attributions
+# Attributions and External Assistance (TP3)
 
-This file tracks external resources used in the project, including technical sources and academic literature.
+This log records all non-original material and assistant usage for academic transparency.
 
-## Technical Sources (Code, Data, Tools, Media)
+## 1) Mandatory Technical References
 
-### 1) [Resource Name]
+| ID | Resource | Provider | URL/Path | Accessed | Usage |
+|----|----------|----------|----------|----------|-------|
+| T-001 | Assignment statement | Course staff | files/instructions/IFT1166H26TP3.pdf | [YYYY-MM-DD] | Requirement source of truth |
+| T-002 | C# Array documentation | Microsoft | [ADD_URL] | [YYYY-MM-DD] | Num1 required API behavior |
+| T-003 | C# List<T> documentation | Microsoft | [ADD_URL] | [YYYY-MM-DD] | Num2 required API behavior |
+| T-004 | C# file I/O documentation | Microsoft | [ADD_URL] | [YYYY-MM-DD] | StreamReader/StreamWriter correctness |
 
-- Author/Organization: [Name]
-- URL: [https://...]
-- License: [MIT / Apache-2.0 / CC-BY / etc.]
-- Access Terms: [Open / Institutional / Paid / Other]
-- Date Accessed: [YYYY-MM-DD]
-- Usage: [Short description]
+## 2) AI Assistance Disclosure
 
-### 2) [Resource Name]
+Use this section if your course policy requires AI transparency.
 
-- Author/Organization: [Name]
-- URL: [https://...]
-- License: [MIT / Apache-2.0 / CC-BY / etc.]
-- Access Terms: [Open / Institutional / Paid / Other]
-- Date Accessed: [YYYY-MM-DD]
-- Usage: [Short description]
+| ID | Tool | Model/Version | Date | Scope of Assistance | Verification Method |
+|----|------|---------------|------|---------------------|---------------------|
+| AI-001 | GitHub Copilot Chat | GPT-5.3-Codex | [YYYY-MM-DD] | Planning, documentation, code review help | Student validated logic and outputs manually |
 
-## Academic Literature (Papers, Books, Conference Proceedings)
+## 3) External Code Policy
 
-Use one citation style consistently (APA, IEEE, or course-required style).
+For this assignment, avoid direct copy/paste of full third-party implementations.
 
-### 1) [Paper or Book Title]
+Allowed:
+- Official API examples adapted to project context
+- Small syntax snippets for language usage
 
-- Authors: [Author 1, Author 2, ...]
-- Year: [YYYY]
-- Venue/Publisher: [Journal / Conference / Publisher]
-- DOI: [10.xxxx/xxxxx] (if available)
-- URL: [https://...]
-- Date Accessed: [YYYY-MM-DD]
-- Citation Style Entry: [Full formatted citation]
-- Usage in Project: [Theory / Methodology / Background / Comparison]
+Not allowed (unless explicitly authorized by professor):
+- Full solution imports from public repositories
+- Ready-made assignment answers
 
-### 2) [Paper or Book Title]
+## 4) Final Integrity Checklist
 
-- Authors: [Author 1, Author 2, ...]
-- Year: [YYYY]
-- Venue/Publisher: [Journal / Conference / Publisher]
-- DOI: [10.xxxx/xxxxx] (if available)
-- URL: [https://...]
-- Date Accessed: [YYYY-MM-DD]
-- Citation Style Entry: [Full formatted citation]
-- Usage in Project: [Theory / Methodology / Background / Comparison]
-
-## Optional: AI and Research Assistant Tools
-
-If your institution requires disclosure, list AI-assisted tools used for drafting, editing, or analysis.
-
-### [Tool Name]
-
-- Provider: [Organization]
-- Version/Model: [Version if known]
-- URL: [https://...]
-- Date Accessed: [YYYY-MM-DD]
-- Usage: [What was assisted and how output was validated]
+- All external resources are logged.
+- AI usage is disclosed if required.
+- Student can explain every implemented step.
+- Final code matches assignment-required APIs and logic.
 
 ## Auto-Tracked Resources
 
 <!-- AUTO-ATTRIBUTIONS:START -->
 - No auto-detected resources yet.
 <!-- AUTO-ATTRIBUTIONS:END -->
-
-
-
----
-
-## Usage Guidelines
-
-For each resource, include enough detail to make verification and citation easy.
-
-Minimum fields:
-
-- Resource name
-- Author / Organization
-- Link
-- License or access terms
-- Date accessed
-- How it was used in this project
