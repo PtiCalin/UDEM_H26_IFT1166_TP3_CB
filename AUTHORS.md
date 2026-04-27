@@ -3,22 +3,26 @@
 ## Student Identity
 
 - Name: Charlie (PtiCalin)
-- Matricule: [ADD_MATRICULE]
+- Matricule: [20077301]
+- Course: IFT1166 - Programmation orientee objet en C++
 - Repository: UDEM_H26_IFT1166_TP3_CB
 
 ## Work Ownership
 
 | Scope | Owner | Status | Notes |
 |------|-------|--------|-------|
-| Num1 model and parsing | Charlie | In progress | `Nation` class and file read |
-| Num1 task logic 1-10 | Charlie | In progress | Array operations |
-| Num2 model and parsing | Charlie | In progress | `Coaster` class and file read |
-| Num2 task logic 1-10 | Charlie | In progress | List operations |
-| Final documentation and packaging | Charlie | In progress | Submission zip prep |
+| OOP hierarchy (Article, Consommable, Equipement, Medicament) | Charlie | Complete | article.h / article.cpp |
+| Inventory management (Inventaire, CRUD, tri, stats) | Charlie | Complete | inventaire.h / inventaire.cpp |
+| CLI argument parsing and entry point | Charlie | Complete | main.cpp |
+| CSV import/export (code;nom;prix;quantite;type;extra) | Charlie | Complete | parserLigneArticleV2 / formaterArticleV2 |
+| Hand-written sort (selection sort) | Charlie | Complete | trierInventaire in inventaire.cpp |
+| Statistics output (global + per type) | Charlie | Complete | afficherStatistiques in inventaire.cpp |
+| Academic report | Charlie | Complete | files/remise/rapport/ |
+| Final documentation and packaging | Charlie | Complete | Submission zip prep |
 
 ## Submission Accountability Checklist
 
 - Student identity fields completed.
 - All authored work is accurate.
 - Any external help is declared in `ATTRIBUTIONS.md`.
-- Final submitter confirms both projects compile.
+- Final submitter confirms the project compiles with C++23.

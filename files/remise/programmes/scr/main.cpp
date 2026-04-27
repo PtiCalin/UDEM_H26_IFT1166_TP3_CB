@@ -13,7 +13,6 @@ Derniere mise a jour: 2026-04-26
 #include "articles/article.cpp"
 #include "inventaire/inventaire.h"
 #include "inventaire/inventaire.cpp"
-#include "data/inventaire.txt"
 #include <cstring>
 #include <cstdlib>
 #include <cerrno>

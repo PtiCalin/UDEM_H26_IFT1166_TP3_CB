@@ -10,11 +10,9 @@ Notes:
 Derniere mise a jour: 2026-03-25
 */
 
-#ifndef inventaire.h
-#define inventaire.h
-#include "inventaire/inventaire.cpp"
-#include "articles/article.h"
-#include "articles/article.cpp"
+#ifndef INVENTAIRE_H
+#define INVENTAIRE_H
+#include "../articles/article.h"
 #include <cstddef>
 
 struct Inventaire 

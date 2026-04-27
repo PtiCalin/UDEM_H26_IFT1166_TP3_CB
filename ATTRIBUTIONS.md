@@ -6,10 +6,10 @@ This log records all non-original material and assistant usage for academic tran
 
 | ID | Resource | Provider | URL/Path | Accessed | Usage |
 |----|----------|----------|----------|----------|-------|
-| T-001 | Assignment statement | Course staff | files/instructions/IFT1166H26TP3.pdf | [YYYY-MM-DD] | Requirement source of truth |
-| T-002 | C# Array documentation | Microsoft | [ADD_URL] | [YYYY-MM-DD] | Num1 required API behavior |
-| T-003 | C# List<T> documentation | Microsoft | [ADD_URL] | [YYYY-MM-DD] | Num2 required API behavior |
-| T-004 | C# file I/O documentation | Microsoft | [ADD_URL] | [YYYY-MM-DD] | StreamReader/StreamWriter correctness |
+| T-001 | Assignment statement | Course staff | files/instructions/IFT1166H26TP3.pdf | 2026-04-26 | Requirement source of truth |
+| T-002 | C++23 std::print / std::println | cppreference | https://en.cppreference.com/w/cpp/io/print | 2026-04-26 | Required output API |
+| T-003 | C++ virtual functions and polymorphism | cppreference | https://en.cppreference.com/w/cpp/language/virtual | 2026-04-26 | OOP hierarchy design |
+| T-004 | C string and file I/O (char*, ifstream) | cppreference | https://en.cppreference.com/w/cpp/string/byte | 2026-04-26 | CSV parsing and inventory storage |
 
 ## 2) AI Assistance Disclosure
 

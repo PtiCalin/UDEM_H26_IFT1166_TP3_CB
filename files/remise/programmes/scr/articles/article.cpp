@@ -14,7 +14,7 @@ Derniere mise a jour : 2026-04-26
 #include <cstring>
 #include <cstdlib>
 #include <cstdio> // snprintf
-#include <print> // std::print / std::println
+// std::print / std::println provient de article.h (via <print> ou fallback)
 
 // Utilitaires internes
 

@@ -12,8 +12,8 @@ Notes:
 Derniere mise a jour : 2026-04-26
 */
 
-#ifndef article.h
-#define article.h
+#ifndef ARTICLE_H
+#define ARTICLE_H
 
 #include <cstddef>
 #include <cstdio>
