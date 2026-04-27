@@ -573,7 +573,7 @@ Elles couvrent chacune des options requises par l'énoncé.
 
 - [ ] Charger le fichier d'inventaire et afficher toutes les entrées :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt
+  .\main.exe -i input\inventaire_tp3.txt
   ```
   Résultat attendu : liste des articles avec le champ `extra` visible pour chaque type.
 
@@ -581,7 +581,7 @@ Elles couvrent chacune des options requises par l'énoncé.
 
 - [ ] Afficher le bloc global suivi des trois blocs par type :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -stat
+  .\main.exe -i input\inventaire_tp3.txt -stat
   ```
   Résultat attendu : nombre, quantité totale, valeur totale, prix min/max — d'abord global, puis
   séparément pour `consommable`, `equipement` et `medicament`.
@@ -590,67 +590,67 @@ Elles couvrent chacune des options requises par l'énoncé.
 
 - [ ] Rechercher un article existant et vérifier que le champ `extra` s'affiche :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -cherche A001
+  .\main.exe -i input\inventaire_tp3.txt -cherche A001
   ```
 - [ ] Rechercher un code inexistant et vérifier le message d'erreur :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -cherche XXXX
+  .\main.exe -i input\inventaire_tp3.txt -cherche XXXX
   ```
 
 ### 5.6 Mise à jour (`-maj`)
 
 - [ ] Modifier le prix et la quantité d'un article, puis vérifier avec `-cherche` :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -maj A001 9.99 5 -cherche A001
+  .\main.exe -i input\inventaire_tp3.txt -maj A001 9.99 5 -cherche A001
   ```
 
 ### 5.7 Ajout (`-ajout`)
 
 - [ ] Ajouter un consommable et vérifier sa présence :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -ajout Z001 Masque 1.50 100 consommable 2027-06-01
+  .\main.exe -i input\inventaire_tp3.txt -ajout Z001 Masque 1.50 100 consommable 2027-06-01
   ```
 - [ ] Ajouter un équipement :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -ajout Z002 Tensiometre 45.00 10 equipement 24
+  .\main.exe -i input\inventaire_tp3.txt -ajout Z002 Tensiometre 45.00 10 equipement 24
   ```
 - [ ] Ajouter un médicament :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -ajout Z003 Aspirine 0.80 200 medicament 500mg
+  .\main.exe -i input\inventaire_tp3.txt -ajout Z003 Aspirine 0.80 200 medicament 500mg
   ```
 
 ### 5.8 Retrait (`-ret`)
 
 - [ ] Retirer un article existant et vérifier qu'il a disparu :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -ret A001 -o sortie.txt
+  .\main.exe -i input\inventaire_tp3.txt -ret A001 -o output\sortie.txt
   ```
   Vérifier que `A001` est absent de `sortie.txt`.
 - [ ] Tenter de retirer un code inexistant et vérifier le message :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -ret XXXX
+  .\main.exe -i input\inventaire_tp3.txt -ret XXXX
   ```
 
 ### 5.9 Tri (`-tri`)
 
 - [ ] Trier par code, ordre ascendant (défaut) :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -tri code
+  .\main.exe -i input\inventaire_tp3.txt -tri code
   ```
 - [ ] Trier par prix, ordre descendant :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -tri prix desc
+  .\main.exe -i input\inventaire_tp3.txt -tri prix desc
   ```
 - [ ] Trier par nom, puis exporter :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -tri nom asc -o sortie_tri.txt
+  .\main.exe -i input\inventaire_tp3.txt -tri nom asc -o output\sortie_tri.txt
   ```
 
 ### 5.10 Export (`-o`)
 
 - [ ] Exporter l'inventaire et vérifier que le fichier contient l'en-tête et les 6 champs :
   ```powershell
-  .\main.exe -i inventaire_tp3.txt -o sortie.txt
+  .\main.exe -i input\inventaire_tp3.txt -o output\sortie.txt
   ```
   Première ligne attendue : `code;nom;prix;quantite;type;extra`
 

@@ -41,3 +41,8 @@ Thumbs.db
 # Large archive files
 files/assets/*.zip
 files/assets/TP2/TP2/*.zip
+files/remise/programmes/scr/main.exe
+files/remise/programmes/scr/main.ilk
+files/remise/programmes/scr/main.obj
+files/remise/programmes/scr/main.pdb
+files/remise/programmes/scr/vc140.pdb
