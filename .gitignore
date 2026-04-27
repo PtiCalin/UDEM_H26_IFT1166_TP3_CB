@@ -34,3 +34,7 @@ Thumbs.db
 /backups/
 *.bak
 *.swp
+
+# Large archive files
+files/assets/*.zip
+files/assets/TP2/TP2/*.zip
