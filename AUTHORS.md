@@ -1,6 +1,6 @@
 # Authors and Ownership (TP3)
 
-## Student Identity
+## Étudiante
 
 - Name: Charlie (PtiCalin)
 - Matricule: [20077301]

@@ -3,16 +3,8 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
 
-# Line endings - normalize to LF in the repo, CRLF on Windows checkout
+# Line endings - let Git handle conversion automatically
 * text=auto
-
-# C++ source files - always LF
-*.cpp text eol=lf
-*.h   text eol=lf
-
-# Text documents - LF
-*.md  text eol=lf
-*.txt text eol=lf
 
 # Binary assets - no line-ending conversion
 *.odt binary
