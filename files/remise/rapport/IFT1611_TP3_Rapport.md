@@ -557,30 +557,31 @@ Elles couvrent chacune des options requises par l'énoncé.
 ### 5.1 Compilation
 
 - [ ] Compiler le projet avec le standard C++23 sans avertissements :
+  ```powershell
+  cl.exe /std:c++latest /EHsc /W4 scr/main.cpp scr/articles/article.cpp scr/inventaire/inventaire.cpp /Fe:main.exe
   ```
-  g++ -std=c++23 -Wall -Wextra -o inventaire scr/main.cpp scr/articles/article.cpp scr/inventaire/inventaire.cpp
-  ```
+  Ou utiliser la tâche de build configurée dans VS Code.
 
 ### 5.2 Aide (`-aide`)
 
 - [ ] Afficher l'aide et vérifier que toutes les options sont listées :
-  ```
-  ./inventaire -aide
+  ```powershell
+  .\main.exe -aide
   ```
 
 ### 5.3 Import et affichage (`-i`)
 
 - [ ] Charger le fichier d'inventaire et afficher toutes les entrées :
-  ```
-  ./inventaire -i inventaire_tp3.txt
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt
   ```
   Résultat attendu : liste des articles avec le champ `extra` visible pour chaque type.
 
 ### 5.4 Statistiques (`-stat`)
 
 - [ ] Afficher le bloc global suivi des trois blocs par type :
-  ```
-  ./inventaire -i inventaire_tp3.txt -stat
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -stat
   ```
   Résultat attendu : nombre, quantité totale, valeur totale, prix min/max — d'abord global, puis
   séparément pour `consommable`, `equipement` et `medicament`.
@@ -588,68 +589,68 @@ Elles couvrent chacune des options requises par l'énoncé.
 ### 5.5 Recherche (`-cherche`)
 
 - [ ] Rechercher un article existant et vérifier que le champ `extra` s'affiche :
-  ```
-  ./inventaire -i inventaire_tp3.txt -cherche A001
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -cherche A001
   ```
 - [ ] Rechercher un code inexistant et vérifier le message d'erreur :
-  ```
-  ./inventaire -i inventaire_tp3.txt -cherche XXXX
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -cherche XXXX
   ```
 
 ### 5.6 Mise à jour (`-maj`)
 
 - [ ] Modifier le prix et la quantité d'un article, puis vérifier avec `-cherche` :
-  ```
-  ./inventaire -i inventaire_tp3.txt -maj A001 9.99 5 -cherche A001
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -maj A001 9.99 5 -cherche A001
   ```
 
 ### 5.7 Ajout (`-ajout`)
 
 - [ ] Ajouter un consommable et vérifier sa présence :
-  ```
-  ./inventaire -i inventaire_tp3.txt -ajout Z001 Masque 1.50 100 consommable 2027-06-01
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -ajout Z001 Masque 1.50 100 consommable 2027-06-01
   ```
 - [ ] Ajouter un équipement :
-  ```
-  ./inventaire -i inventaire_tp3.txt -ajout Z002 Tensiometre 45.00 10 equipement 24
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -ajout Z002 Tensiometre 45.00 10 equipement 24
   ```
 - [ ] Ajouter un médicament :
-  ```
-  ./inventaire -i inventaire_tp3.txt -ajout Z003 Aspirine 0.80 200 medicament 500mg
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -ajout Z003 Aspirine 0.80 200 medicament 500mg
   ```
 
 ### 5.8 Retrait (`-ret`)
 
 - [ ] Retirer un article existant et vérifier qu'il a disparu :
-  ```
-  ./inventaire -i inventaire_tp3.txt -ret A001 -o sortie.txt
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -ret A001 -o sortie.txt
   ```
   Vérifier que `A001` est absent de `sortie.txt`.
 - [ ] Tenter de retirer un code inexistant et vérifier le message :
-  ```
-  ./inventaire -i inventaire_tp3.txt -ret XXXX
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -ret XXXX
   ```
 
 ### 5.9 Tri (`-tri`)
 
 - [ ] Trier par code, ordre ascendant (défaut) :
-  ```
-  ./inventaire -i inventaire_tp3.txt -tri code
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -tri code
   ```
 - [ ] Trier par prix, ordre descendant :
-  ```
-  ./inventaire -i inventaire_tp3.txt -tri prix desc
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -tri prix desc
   ```
 - [ ] Trier par nom, puis exporter :
-  ```
-  ./inventaire -i inventaire_tp3.txt -tri nom asc -o sortie_tri.txt
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -tri nom asc -o sortie_tri.txt
   ```
 
 ### 5.10 Export (`-o`)
 
 - [ ] Exporter l'inventaire et vérifier que le fichier contient l'en-tête et les 6 champs :
-  ```
-  ./inventaire -i inventaire_tp3.txt -o sortie.txt
+  ```powershell
+  .\main.exe -i inventaire_tp3.txt -o sortie.txt
   ```
   Première ligne attendue : `code;nom;prix;quantite;type;extra`
 
