@@ -603,6 +603,15 @@ Elles couvrent chacune des options requises par l'énoncé.
   ```powershell
   .\main.exe -i input\inventaire_tp3.txt -maj A001 9.99 5 -o output.txt
   ```
+  Vérifier que le fichier `output.txt` contient A001 avec les nouvelles valeurs.
+- [ ] Vérifier la modification directement sans export :
+  ```powershell
+  .\main.exe -i input\inventaire_tp3.txt -maj A001 9.99 5 -cherche A001
+  ```
+  ```powershell
+  .\main.exe -i input\inventaire_tp3.txt -maj A001 9.99 5 -o output\test_maj.txt
+  ```
+  Résultat attendu : `A001 | Gants nitrile XS blanc Mod-100 | 9.99 $ | qte=5 | type=consommable | exp=2026-01-31`
 
 ### 5.7 Ajout (`-ajout`)
 

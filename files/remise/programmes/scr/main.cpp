@@ -10,12 +10,11 @@ Notes:
 Derniere mise a jour: 2026-04-26
 */
 #include "articles/article.h"
-#include "articles/article.cpp"
 #include "inventaire/inventaire.h"
-#include "inventaire/inventaire.cpp"
 #include <cstring>
 #include <cstdlib>
 #include <cerrno>
+#include <clocale>
 
 static bool parserDouble(const char* texte, double& resultat) 
 {
@@ -71,6 +70,9 @@ static void afficherAide()
 
 int main(int argc, char* argv[]) 
 {
+    // Forcer la locale C pour garantir que le point est utilise comme separateur decimal
+    std::setlocale(LC_ALL, "C");
+    
     if (argc < 2) 
 	{
         afficherAide();
