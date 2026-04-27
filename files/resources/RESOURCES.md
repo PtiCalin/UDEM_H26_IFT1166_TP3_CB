@@ -6,28 +6,31 @@ Track only resources that directly help complete or validate this assignment.
 
 | ID | Resource | Category | Maintainer | Link/Path | Access Date | Why It Matters |
 |----|----------|----------|------------|-----------|-------------|----------------|
-| R-001 | TP3 assignment PDF | Assignment spec | Course staff | files/instructions/IFT1166H26TP3.pdf | [YYYY-MM-DD] | Ground truth requirements |
-| R-002 | C# Array docs | Technical docs | Microsoft | [Add URL] | [YYYY-MM-DD] | Required APIs for Num1 |
-| R-003 | C# List<T> docs | Technical docs | Microsoft | [Add URL] | [YYYY-MM-DD] | Required APIs for Num2 |
-| R-004 | StreamReader/Writer docs | Technical docs | Microsoft | [Add URL] | [YYYY-MM-DD] | File parsing and exports |
+| R-001 | TP3 assignment statement | Assignment spec | Course staff | files/instructions/INSTRUCTIONS.md | 2026-04-26 | Ground truth requirements (POO, CLI options, format, constraints) |
+| R-002 | TP3 assignment PDF | Assignment spec | Course staff | files/instructions/IFT1166H26TP3.pdf | 2026-04-26 | Official grading and submission reference |
+| R-003 | C++23 std::print/std::println | Technical docs | cppreference | https://en.cppreference.com/w/cpp/io/print | 2026-04-26 | Required output API in the assignment |
+| R-004 | C string handling (char*) | Technical docs | cppreference | https://en.cppreference.com/w/cpp/string/byte | 2026-04-26 | Required for parsing and in-memory data handling |
+| R-005 | File streams (ifstream/ofstream) | Technical docs | cppreference | https://en.cppreference.com/w/cpp/io/basic_ifstream | 2026-04-26 | Inventory import/export from UTF-8 text files |
 
 ## Recommended Additions
 
-1. Professor clarifications (if posted on LMS).
-2. Lecture notes for arrays, classes, sorting, searching.
-3. Any grading rubric fragments shared in class.
+1. Clarifications posted by the professor on Studium.
+2. Lecture material on inheritance, virtual methods, and polymorphism.
+3. Notes on hand-written sorting algorithms (selection/insertion/bubble).
 
 ## Validation Use Map
 
 | TP3 Area | Primary Resource IDs |
 |----------|----------------------|
-| Num1 parsing and array operations | R-001, R-002, R-004 |
-| Num2 list operations and sorting | R-001, R-003 |
-| Output format verification | R-001 |
+| CLI options (-i, -o, -ajout, -ret, -maj, -cherche, -tri, -stat, -aide) | R-001, R-002 |
+| Inventory parsing (code;nom;prix;quantite;type;extra) | R-001, R-004, R-005 |
+| POO hierarchy and polymorphic manipulation | R-001, R-002 |
+| Console output compliance (std::print/std::println) | R-001, R-003 |
+| Statistics layout (global + by type) | R-001 |
 
 ## Quality Rules for This File
 
 1. Every resource must have a concrete usage note.
 2. No generic references without direct assignment relevance.
 3. Keep links and dates current.
-4. Mirror external references in `ATTRIBUTIONS.md`.
+4. Mirror external references in ATTRIBUTIONS.md.

@@ -1,0 +1,201 @@
+code;nom;prix;quantite;type;extra1
+A001;Gants nitrile XS blanc Mod-100;0.2;20;consommable;2026-01-31
+A002;Tensiometre bleu Mod-201;16.9;2;equipement;13
+A003;Paracetamol 500mg Mod-302;2.6;196;medicament;500mg
+A004;Bande elastique L gris Mod-103;1.31;143;consommable;2026-02-03
+A005;Thermometre digital blanc Mod-204;22.6;5;equipement;16
+A006;Ibuprofene 250mg Mod-305;4.25;415;medicament;250mg
+A007;Compresse sterile S vert Mod-106;2.42;266;consommable;2026-02-06
+A008;Oxymetre gris Mod-207;28.3;8;equipement;19
+A009;Amoxicilline 650mg Mod-308;5.9;634;medicament;650mg
+A010;Gel hydroalcoolique XL bleu Mod-109;3.53;389;consommable;2026-02-09
+A011;Stethoscope vert Mod-210;34.0;11;equipement;22
+A012;Aspirine 400mg Mod-311;7.55;853;medicament;400mg
+A013;Pansement adhesif M blanc Mod-112;4.64;512;consommable;2026-02-12
+A014;Lampe frontale bleu Mod-213;39.7;14;equipement;25
+A015;Metformine 1g Mod-314;9.2;1072;medicament;1g
+A016;Lingette desinfectante XS gris Mod-115;5.75;635;consommable;2026-02-15
+A017;Laryngoscope blanc Mod-216;45.4;17;equipement;28
+A018;Paracetamol 500mg Mod-317;10.85;1291;medicament;500mg
+A019;Savon antiseptique L vert Mod-118;6.86;758;consommable;2026-02-18
+A020;Tensiometre gris Mod-219;51.1;20;equipement;31
+A021;Ibuprofene 250mg Mod-320;12.5;1510;medicament;250mg
+A022;Gants nitrile S bleu Mod-121;7.97;881;consommable;2026-02-21
+A023;Thermometre digital vert Mod-222;56.8;23;equipement;34
+A024;Amoxicilline 650mg Mod-323;14.15;1729;medicament;650mg
+A025;Bande elastique XL blanc Mod-124;9.08;1004;consommable;2026-02-24
+A026;Oxymetre bleu Mod-225;62.5;1;equipement;37
+A027;Aspirine 400mg Mod-326;15.8;1948;medicament;400mg
+A028;Compresse sterile M gris Mod-127;10.19;1127;consommable;2026-02-27
+A029;Stethoscope blanc Mod-228;68.2;4;equipement;40
+A030;Metformine 1g Mod-329;17.45;2167;medicament;1g
+A031;Gel hydroalcoolique XS vert Mod-130;11.3;1250;consommable;2026-03-02
+A032;Lampe frontale gris Mod-231;73.9;7;equipement;43
+A033;Paracetamol 500mg Mod-332;19.1;2386;medicament;500mg
+A034;Pansement adhesif L bleu Mod-133;12.41;1373;consommable;2026-03-05
+A035;Laryngoscope vert Mod-234;79.6;10;equipement;46
+A036;Ibuprofene 250mg Mod-335;20.75;2605;medicament;250mg
+A037;Lingette desinfectante S blanc Mod-136;13.52;1496;consommable;2026-03-08
+A038;Tensiometre bleu Mod-237;85.3;13;equipement;13
+A039;Amoxicilline 650mg Mod-338;22.4;2824;medicament;650mg
+A040;Savon antiseptique XL gris Mod-139;14.63;119;consommable;2026-03-11
+A041;Thermometre digital blanc Mod-240;91.0;16;equipement;16
+A042;Aspirine 400mg Mod-341;24.05;3043;medicament;400mg
+A043;Gants nitrile M vert Mod-142;15.74;242;consommable;2026-03-14
+A044;Oxymetre gris Mod-243;96.7;19;equipement;19
+A045;Metformine 1g Mod-344;25.7;262;medicament;1g
+A046;Bande elastique XS bleu Mod-145;16.85;365;consommable;2026-03-17
+A047;Stethoscope vert Mod-246;102.4;22;equipement;22
+A048;Paracetamol 500mg Mod-347;2.35;481;medicament;500mg
+A049;Compresse sterile L blanc Mod-148;17.96;488;consommable;2026-03-20
+A050;Lampe frontale bleu Mod-249;18.1;25;equipement;25
+A051;Ibuprofene 250mg Mod-350;4.0;700;medicament;250mg
+A052;Gel hydroalcoolique S gris Mod-151;1.07;611;consommable;2026-03-23
+A053;Laryngoscope blanc Mod-252;23.8;3;equipement;28
+A054;Amoxicilline 650mg Mod-353;5.65;919;medicament;650mg
+A055;Pansement adhesif XL vert Mod-154;2.18;734;consommable;2026-03-26
+A056;Tensiometre gris Mod-255;29.5;6;equipement;31
+A057;Aspirine 400mg Mod-356;7.3;1138;medicament;400mg
+A058;Lingette desinfectante M bleu Mod-157;3.29;857;consommable;2026-03-29
+A059;Thermometre digital vert Mod-258;35.2;9;equipement;34
+A060;Metformine 1g Mod-359;8.95;1357;medicament;1g
+A061;Savon antiseptique XS blanc Mod-160;4.4;980;consommable;2026-04-01
+A062;Oxymetre bleu Mod-261;40.9;12;equipement;37
+A063;Paracetamol 500mg Mod-362;10.6;1576;medicament;500mg
+A064;Gants nitrile L gris Mod-163;5.51;1103;consommable;2026-04-04
+A065;Stethoscope blanc Mod-264;46.6;15;equipement;40
+A066;Ibuprofene 250mg Mod-365;12.25;1795;medicament;250mg
+A067;Bande elastique S vert Mod-166;6.62;1226;consommable;2026-04-07
+A068;Lampe frontale gris Mod-267;52.3;18;equipement;43
+A069;Amoxicilline 650mg Mod-368;13.9;2014;medicament;650mg
+A070;Compresse sterile XL bleu Mod-169;7.73;1349;consommable;2026-04-10
+A071;Laryngoscope vert Mod-270;58.0;21;equipement;46
+A072;Aspirine 400mg Mod-371;15.55;2233;medicament;400mg
+A073;Gel hydroalcoolique M blanc Mod-172;8.84;1472;consommable;2026-04-13
+A074;Tensiometre bleu Mod-273;63.7;24;equipement;13
+A075;Metformine 1g Mod-374;17.2;2452;medicament;1g
+A076;Pansement adhesif XS gris Mod-175;9.95;95;consommable;2026-04-16
+A077;Thermometre digital blanc Mod-276;69.4;2;equipement;16
+A078;Paracetamol 500mg Mod-377;18.85;2671;medicament;500mg
+A079;Lingette desinfectante L vert Mod-178;11.06;218;consommable;2026-04-19
+A080;Oxymetre gris Mod-279;75.1;5;equipement;19
+A081;Ibuprofene 250mg Mod-380;20.5;2890;medicament;250mg
+A082;Savon antiseptique S bleu Mod-181;12.17;341;consommable;2026-04-22
+A083;Stethoscope vert Mod-282;80.8;8;equipement;22
+A084;Amoxicilline 650mg Mod-383;22.15;109;medicament;650mg
+A085;Gants nitrile XL blanc Mod-184;13.28;464;consommable;2026-04-25
+A086;Lampe frontale bleu Mod-285;86.5;11;equipement;25
+A087;Aspirine 400mg Mod-386;23.8;328;medicament;400mg
+A088;Bande elastique M gris Mod-187;14.39;587;consommable;2026-04-28
+A089;Laryngoscope blanc Mod-288;92.2;14;equipement;28
+A090;Metformine 1g Mod-389;25.45;547;medicament;1g
+A091;Compresse sterile XS vert Mod-190;15.5;710;consommable;2026-05-01
+A092;Tensiometre gris Mod-291;97.9;17;equipement;31
+A093;Paracetamol 500mg Mod-392;2.1;766;medicament;500mg
+A094;Gel hydroalcoolique L bleu Mod-193;16.61;833;consommable;2026-05-04
+A095;Thermometre digital vert Mod-294;103.6;20;equipement;34
+A096;Ibuprofene 250mg Mod-395;3.75;985;medicament;250mg
+A097;Pansement adhesif S blanc Mod-196;17.72;956;consommable;2026-05-07
+A098;Oxymetre bleu Mod-297;19.3;23;equipement;37
+A099;Amoxicilline 650mg Mod-398;5.4;1204;medicament;650mg
+A100;Lingette desinfectante XL gris Mod-199;0.83;1079;consommable;2026-05-10
+A101;Stethoscope blanc Mod-300;25.0;1;equipement;40
+A102;Aspirine 400mg Mod-401;7.05;1423;medicament;400mg
+A103;Savon antiseptique M vert Mod-202;1.94;1202;consommable;2026-05-13
+A104;Lampe frontale gris Mod-303;30.7;4;equipement;43
+A105;Metformine 1g Mod-404;8.7;1642;medicament;1g
+A106;Gants nitrile XS bleu Mod-205;3.05;1325;consommable;2026-05-16
+A107;Laryngoscope vert Mod-306;36.4;7;equipement;46
+A108;Paracetamol 500mg Mod-407;10.35;1861;medicament;500mg
+A109;Bande elastique L blanc Mod-208;4.16;1448;consommable;2026-05-19
+A110;Tensiometre bleu Mod-309;42.1;10;equipement;13
+A111;Ibuprofene 250mg Mod-410;12.0;2080;medicament;250mg
+A112;Compresse sterile S gris Mod-211;5.27;71;consommable;2026-05-22
+A113;Thermometre digital blanc Mod-312;47.8;13;equipement;16
+A114;Amoxicilline 650mg Mod-413;13.65;2299;medicament;650mg
+A115;Gel hydroalcoolique XL vert Mod-214;6.38;194;consommable;2026-05-25
+A116;Oxymetre gris Mod-315;53.5;16;equipement;19
+A117;Aspirine 400mg Mod-416;15.3;2518;medicament;400mg
+A118;Pansement adhesif M bleu Mod-217;7.49;317;consommable;2026-05-28
+A119;Stethoscope vert Mod-318;59.2;19;equipement;22
+A120;Metformine 1g Mod-419;16.95;2737;medicament;1g
+A121;Lingette desinfectante XS blanc Mod-220;8.6;440;consommable;2026-05-31
+A122;Lampe frontale bleu Mod-321;64.9;22;equipement;25
+A123;Paracetamol 500mg Mod-422;18.6;2956;medicament;500mg
+A124;Savon antiseptique L gris Mod-223;9.71;563;consommable;2026-06-03
+A125;Laryngoscope blanc Mod-324;70.6;25;equipement;28
+A126;Ibuprofene 250mg Mod-425;20.25;175;medicament;250mg
+A127;Gants nitrile S vert Mod-226;10.82;686;consommable;2026-06-06
+A128;Tensiometre gris Mod-327;76.3;3;equipement;31
+A129;Amoxicilline 650mg Mod-428;21.9;394;medicament;650mg
+A130;Bande elastique XL bleu Mod-229;11.93;809;consommable;2026-06-09
+A131;Thermometre digital vert Mod-330;82.0;6;equipement;34
+A132;Aspirine 400mg Mod-431;23.55;613;medicament;400mg
+A133;Compresse sterile M blanc Mod-232;13.04;932;consommable;2026-06-12
+A134;Oxymetre bleu Mod-333;87.7;9;equipement;37
+A135;Metformine 1g Mod-434;25.2;832;medicament;1g
+A136;Gel hydroalcoolique XS gris Mod-235;14.15;1055;consommable;2026-06-15
+A137;Stethoscope blanc Mod-336;93.4;12;equipement;40
+A138;Paracetamol 500mg Mod-437;1.85;1051;medicament;500mg
+A139;Pansement adhesif L vert Mod-238;15.26;1178;consommable;2026-06-18
+A140;Lampe frontale gris Mod-339;99.1;15;equipement;43
+A141;Ibuprofene 250mg Mod-440;3.5;1270;medicament;250mg
+A142;Lingette desinfectante S bleu Mod-241;16.37;1301;consommable;2026-06-21
+A143;Laryngoscope vert Mod-342;104.8;18;equipement;46
+A144;Amoxicilline 650mg Mod-443;5.15;1489;medicament;650mg
+A145;Savon antiseptique XL blanc Mod-244;17.48;1424;consommable;2026-06-24
+A146;Tensiometre bleu Mod-345;20.5;21;equipement;13
+A147;Aspirine 400mg Mod-446;6.8;1708;medicament;400mg
+A148;Gants nitrile M gris Mod-247;0.59;47;consommable;2026-06-27
+A149;Thermometre digital blanc Mod-348;26.2;24;equipement;16
+A150;Metformine 1g Mod-449;8.45;1927;medicament;1g
+A151;Bande elastique XS vert Mod-250;1.7;170;consommable;2026-06-30
+A152;Oxymetre gris Mod-351;31.9;2;equipement;19
+A153;Paracetamol 500mg Mod-452;10.1;2146;medicament;500mg
+A154;Compresse sterile L bleu Mod-253;2.81;293;consommable;2026-07-03
+A155;Stethoscope vert Mod-354;37.6;5;equipement;22
+A156;Ibuprofene 250mg Mod-455;11.75;2365;medicament;250mg
+A157;Gel hydroalcoolique S blanc Mod-256;3.92;416;consommable;2026-07-06
+A158;Lampe frontale bleu Mod-357;43.3;8;equipement;25
+A159;Amoxicilline 650mg Mod-458;13.4;2584;medicament;650mg
+A160;Pansement adhesif XL gris Mod-259;5.03;539;consommable;2026-07-09
+A161;Laryngoscope blanc Mod-360;49.0;11;equipement;28
+A162;Aspirine 400mg Mod-461;15.05;2803;medicament;400mg
+A163;Lingette desinfectante M vert Mod-262;6.14;662;consommable;2026-07-12
+A164;Tensiometre gris Mod-363;54.7;14;equipement;31
+A165;Metformine 1g Mod-464;16.7;3022;medicament;1g
+A166;Savon antiseptique XS bleu Mod-265;7.25;785;consommable;2026-07-15
+A167;Thermometre digital vert Mod-366;60.4;17;equipement;34
+A168;Paracetamol 500mg Mod-467;18.35;241;medicament;500mg
+A169;Gants nitrile L blanc Mod-268;8.36;908;consommable;2026-07-18
+A170;Oxymetre bleu Mod-369;66.1;20;equipement;37
+A171;Ibuprofene 250mg Mod-470;20.0;460;medicament;250mg
+A172;Bande elastique S gris Mod-271;9.47;1031;consommable;2026-07-21
+A173;Stethoscope blanc Mod-372;71.8;23;equipement;40
+A174;Amoxicilline 650mg Mod-473;21.65;679;medicament;650mg
+A175;Compresse sterile XL vert Mod-274;10.58;1154;consommable;2026-07-24
+A176;Lampe frontale gris Mod-375;77.5;1;equipement;43
+A177;Aspirine 400mg Mod-476;23.3;898;medicament;400mg
+A178;Gel hydroalcoolique M bleu Mod-277;11.69;1277;consommable;2026-07-27
+A179;Laryngoscope vert Mod-378;83.2;4;equipement;46
+A180;Metformine 1g Mod-479;24.95;1117;medicament;1g
+A181;Pansement adhesif XS blanc Mod-280;12.8;1400;consommable;2026-07-30
+A182;Tensiometre bleu Mod-381;88.9;7;equipement;13
+A183;Paracetamol 500mg Mod-482;1.6;1336;medicament;500mg
+A184;Lingette desinfectante L gris Mod-283;13.91;23;consommable;2026-08-02
+A185;Thermometre digital blanc Mod-384;94.6;10;equipement;16
+A186;Ibuprofene 250mg Mod-485;3.25;1555;medicament;250mg
+A187;Savon antiseptique S vert Mod-286;15.02;146;consommable;2026-08-05
+A188;Oxymetre gris Mod-387;100.3;13;equipement;19
+A189;Amoxicilline 650mg Mod-488;4.9;1774;medicament;650mg
+A190;Gants nitrile XL bleu Mod-289;16.13;269;consommable;2026-08-08
+A191;Stethoscope vert Mod-390;16.0;16;equipement;22
+A192;Aspirine 400mg Mod-491;6.55;1993;medicament;400mg
+A193;Bande elastique M blanc Mod-292;17.24;392;consommable;2026-08-11
+A194;Lampe frontale bleu Mod-393;21.7;19;equipement;25
+A195;Metformine 1g Mod-494;8.2;2212;medicament;1g
+A196;Compresse sterile XS gris Mod-295;0.35;515;consommable;2026-08-14
+A197;Laryngoscope blanc Mod-396;27.4;22;equipement;28
+A198;Paracetamol 500mg Mod-497;9.85;2431;medicament;500mg
+A199;Gel hydroalcoolique L vert Mod-298;1.46;638;consommable;2026-08-17
+A200;Tensiometre gris Mod-399;33.1;25;equipement;31
