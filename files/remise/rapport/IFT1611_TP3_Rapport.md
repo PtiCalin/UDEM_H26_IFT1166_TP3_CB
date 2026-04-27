@@ -601,7 +601,7 @@ Elles couvrent chacune des options requises par l'énoncé.
 
 - [ ] Modifier le prix et la quantité d'un article, puis vérifier avec `-cherche` :
   ```powershell
-  .\main.exe -i input\inventaire_tp3.txt -maj A001 9.99 5 -cherche A001
+  .\main.exe -i input\inventaire_tp3.txt -maj A001 9.99 5 -o output.txt
   ```
 
 ### 5.7 Ajout (`-ajout`)
